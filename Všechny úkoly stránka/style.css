@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    flex-basis: 30px;
+}
+
+.child {
+    color: blue;
+    text-align: center;
+
+}
