@@ -1,7 +1,7 @@
 
 body {
     margin:0;
-    background-color: #222224
+    background-color: #222224;
 }
 
 .header{
@@ -32,4 +32,14 @@ h1 {color:#f3f3f3}
 .column{
     height: 200px;
     width: 200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 1200px;
+    left: 200px;
+    width: 1500px;
+    overflow: hidden;
 }

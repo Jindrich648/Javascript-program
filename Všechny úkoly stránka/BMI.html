@@ -8,22 +8,22 @@
 </head>
 <body>
 
-<div class="container">
-    <h1 class="child">Výpočet BMI</h1>
-    <label class="child" for="number1">Hmotnost (v kg):</label>
+<div>
+    <h1>Výpočet BMI</h1>
+    <label for="number1">Hmotnost (v kg):</label>
     <input type="number" id="number1">
     
-    <label class="child" for="number2">Výška (v metrech):</label>
+    <label for="number2">Výška (v metrech):</label>
     <input type="number" id="number2">
     
     <button onclick="vysledek()">Spočítat BMI</button>
-    <p id="vystup"></p>
     
     <button type="button" onclick="resetBMI()">Reset</button>
 </div>
+<p style="margin-top: 1em" id="vystup"></p>
 
-<div>
-    <h1>Výpočet BMR</h1>
+<h1 class="pozice">Výpočet BMR</h1>
+<div class="pozice">
     <label for="number1a">Hmotnost (v kilogramech):</label>
     <input type="number" id="number1a">
     <br>
@@ -40,10 +40,10 @@
     <input type="text" id="aktivita">
     <br>
     <button onclick="vysledek2()">Spočítat BMR</button>
-    <p id="vystup1"></p>
     <br>
     <button type="button" onclick="resetBMR()">Reset</button>
 </div>
+<p class="pozice" id="vystup1"></p>
 
     <script src="BMI.js"></script>
 </body>
