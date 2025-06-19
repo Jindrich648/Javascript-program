@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objednávkový systém</title>
+    <link rel="stylesheet" href="objednavkovySystem.css">
+</head>
+<body>
+    <h1>Menu</h1>
+        <div>
+            <form>
+                <label for="food">Steak</label>
+                <input type="number" id="Steak" value="0" min="0">
+                <label for="food">Hamburger</label>
+                <input type="number" id="Hamburger" value="0" min="0">
+                <label for="food">Pasta</label>
+                <input type="number" id="Pasta" value="0" min="0">
+                <label for="food">Icecream</label>
+                <input type="number" id="Icecream" value="0" min="0">
+            </form>
+        </div>
+
+        <div class="button-container">
+            <button onclick="calculation()">Odeslat objednávku</button>
+            <button class="reset" onclick="reset()">Reset</button>
+        </div>
+
+    <p id="orderSummary">Celkem položek: 0</p>
+    <p id="calculationCheck">Celková cena: 0 Kč</p>
+    <p id="steakCount"></p>
+    <p id="hamburgerCount"></p>
+    <p id="pastaCount"></p>
+    <p id="icecreamCount"></p>
+    <script src="objednavkovySystem.js"></script>
+</body>
+</html>
+

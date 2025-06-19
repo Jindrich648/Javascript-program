@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
+</head>
+<body>
+
+<div>
+    <h1>Výpočet BMI</h1>
+    <label for="number1">Hmotnost (v kg):</label>
+    <input type="number" id="number1">
+    
+    <label for="number2">Výška (v metrech):</label>
+    <input type="number" id="number2">
+    
+    <button onclick="vysledek()">Spočítat BMI</button>
+    
+    <button type="button" onclick="resetBMI()">Reset</button>
+</div>
+<p style="margin-top: 1em" id="vystup"></p>
+
+<h1 class="pozice">Výpočet BMR</h1>
+<div class="pozice">
+    <label for="number1a">Hmotnost (v kilogramech):</label>
+    <input type="number" id="number1a">
+    <br>
+    <label for="number2a">Výška (v metrech):</label>
+    <input type="number" id="number2a">
+    <br>
+    <label for="number3">Věk (v letech):</label>
+    <input type="number" id="number3">
+    <br>
+    <label for="Pohlaví">Pohlaví (muž, žena):</label>
+    <input type="text" id="gender">
+    <br>
+    <label for="aktivita">Fyzická aktivita (nízká, střední, vysoká):</label>
+    <input type="text" id="aktivita">
+    <br>
+    <button onclick="vysledek2()">Spočítat BMR</button>
+    <br>
+    <button type="button" onclick="resetBMR()">Reset</button>
+</div>
+<p class="pozice" id="vystup1"></p>
+
+    <script src="BMI.js"></script>
+</body>
+</html>
+

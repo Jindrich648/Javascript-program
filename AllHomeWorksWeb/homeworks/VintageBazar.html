@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vintage Bazar</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Vlastní styl -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdf6ec;
+      color: #4b3b2a;
+    }
+    h1, h2, h3, .navbar-brand {
+      font-family: 'EB Garamond', serif;
+    }
+    .bg-vintage {
+      background-color: #e0cfc1;
+    }
+    .card {
+      background-color: #fffaf3;
+      border: 1px solid #d6bfa5;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigace -->
+  <nav class="navbar navbar-expand-lg bg-vintage navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Vintage Bazar</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#uvod">Úvod</a></li>
+          <li class="nav-item"><a class="nav-link" href="#katalog">Katalog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Úvodní sekce -->
+  <section id="uvod" class="py-5 text-center">
+    <div class="container">
+      <h2>Vítejte ve Vintage Bazaru</h2>
+      <p>U nás najdete pečlivě vybrané kousky s duší minulosti – od retro módy přes vinylové desky až po unikátní bytové doplňky.</p>
+    </div>
+  </section>
+
+  <!-- Katalog -->
+  <section id="katalog" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Naše nabídka</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Položky -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Retro křeslo">
+            <div class="card-body">
+              <h5 class="card-title">Retro křeslo</h5>
+              <p class="card-text">Pohodlné křeslo z 60. let s dřevěnými područkami.</p>
+              <p><strong>1 200 Kč</strong></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Vinyl deska">
+            <div class="card-body">
+              <h5 class="card-title">Vinyl – Beatles</h5>
+              <p class="card-text">Originální LP z roku 1968, perfektní stav.</p>
+              <p><strong>500 Kč</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Retro šaty">
+            <div class="card-body">
+              <h5 class="card-title">Retro šaty</h5>
+              <p class="card-text">Elegantní dámské šaty s květinovým vzorem.</p>
+              <p><strong>750 Kč</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Stolní lampa">
+            <div class="card-body">
+              <h5 class="card-title">Stolní lampa</h5>
+              <p class="card-text">Mosazná lampa s vintage stínidlem, funkční.</p>
+              <p><strong>890 Kč</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Cestovní kufr">
+            <div class="card-body">
+              <h5 class="card-title">Cestovní kufr</h5>
+              <p class="card-text">Kožený kufr z 50. let – ideální jako dekorace.</p>
+              <p><strong>1 000 Kč</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Porcelánový servis">
+            <div class="card-body">
+              <h5 class="card-title">Porcelánový servis</h5>
+              <p class="card-text">Kompletní sada z 30. let pro 6 osob.</p>
+              <p><strong>1 500 Kč</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="py-5 bg-vintage">
+    <div class="container">
+      <h2 class="text-center">Kontakt</h2>
+      <div class="text-center">
+        <p><strong>Adresa:</strong> U Retro 12, Praha</p>
+        <p><strong>E-mail:</strong> info@vintagebazar.cz</p>
+        <p><strong>Otevírací doba:</strong><br>
+          Po–Pá: 10:00–18:00<br>
+          So: 10:00–14:00<br>
+          Ne: zavřeno</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patička -->
+  <footer class="text-center py-3 bg-light">
+    <small>&copy; 2025 Vintage Bazar | Made with Bootstrap 5</small>
+  </footer>
+</body>
+</html>
