@@ -1,0 +1,84 @@
+/*@font-face {
+    font-family: ;
+    src: url();
+    font-weight: normal;
+} 
+přidá vlastní font*/
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-family: Verdana;
+    font-size: large;
+    text-shadow: 3px 3px 7px #6666;
+}
+
+article {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.headers {
+    color:red;
+    font-family: Arial;
+    font-size: 2.5em;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+body {
+    /*background: url('images/favicon.ico')*/
+    background-size: cover; /*roztáhne nebo zmenší obrázek na pozadí*/
+    box-sizing: border-box; /*o nastavené šířky a výšky započítává i velikost padding a šířka rámečku, element zůstane pořád stejně široký */
+}
+.avatar{
+    float:right;
+    width: 300px;
+    padding-left: 10px;
+    filter: grayscale(1);
+}
+.cleaner{
+    clear: both; /*ukončí obtékání textu, použije se v divu*/
+}
+
+.reference-tlacitko{
+    background: #70B73A;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 25px; /*ze shora dola 12px, ze stran 25px odsazení*/
+    border-radius: 25px; /*zakulací rohů*/
+    /*border-top: 3px solid green*/
+}
+
+.buttonBlue{
+    background: #58ADF8;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: bold;
+}
+.buttonBlue:hover{
+    background: #58ADF8;
+    border: 1px solid #3B94E0;
+}
+
+.nav{
+    background: #8bbeeb;
+    padding: 20px;
+    text-align: center;
+}
+.navButton{
+    text-decoration: none;
+    color: white;
+    background: #3B94E0;
+    border-radius: 5px;
+    padding: 12px 25px;
+}
+.navButton:hover{
+    background: #58ADF8;
+}

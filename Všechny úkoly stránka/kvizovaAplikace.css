@@ -1,0 +1,9 @@
+body {background-color: rgb(223, 219, 215);}
+
+h1 {text-align:center;margin-top: 2em;}
+h1.pozice{
+    position: absolute;
+    top: 7em;
+    width: 100%;
+    text-align: center;
+}
